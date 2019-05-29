@@ -1037,10 +1037,10 @@ to reproduce-explicit-genetics
 
             ; a mutation in the direction of the optimum occurs with probability p =
             ; % beneficial mutations / 100
-           if([mean-env-optimum] of patch-here < phenotype) ; (optimum push for smaller trait value)
-           [ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
+           ;if([mean-env-optimum] of patch-here < phenotype) ; (optimum push for smaller trait value)
+           ;[ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
                                      ; account for the desired probability of beneficial mutations
-           ] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
+           ;] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
 
             ; DEBUG
             ;write "value before: " print item l strain1-parent1
@@ -1059,11 +1059,11 @@ to reproduce-explicit-genetics
 
             ; a mutation in the direction of the optimum occurs with probability p =
             ; % beneficial mutations / 100
-            if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
+            ;if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
                                                              ;(optimum push for smaller trait value)
-            [ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
+            ;[ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
                                      ; account for the desired probability of beneficial mutations
-            ] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
+            ;] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
 
             ; DEBUG
             ;write "value before: " print item l strain2-parent1
@@ -1091,11 +1091,11 @@ to reproduce-explicit-genetics
 
             ; a mutation in the direction of the optimum occurs with probability p =
             ; % beneficial mutations / 100
-            if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
+            ;if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
                                                              ;(optimum push for smaller trait value)
-            [ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
+            ;[ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
                                      ; account for the probability of beneficial mutations
-            ] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
+            ;] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
 
             ; DEBUG
             ;write "value before: " print item l strain1-parent2
@@ -1114,11 +1114,11 @@ to reproduce-explicit-genetics
 
             ; a mutation in the direction of the optimum occurs with probability p =
             ; % beneficial mutations / 100
-            if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
+            ;if([mean-env-optimum] of patch-here < phenotype) ; optimum at the left
                                                              ; (optimum push for smaller trait value)
-            [ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
+            ;[ set dummy (-1) * dummy ; change sign such that the distribution of effects properly
                                      ; account for the probability of beneficial mutations
-            ] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
+            ;] ; else if ([mean-env-optimum] of patch-here > phenotype) no need of further modification
 
             ; DEBUG
             ;write "value before: " print item l strain2-parent2
