@@ -2,7 +2,7 @@
 ;          Project Name: Evolutionary adaptive responses to rapid environmental change
 ;                                  UNIVERSITY OF POTSDAM
 ;
-; Author(s):       Kahl S., Paraskevopoulou, S., Remco F., and Romero-Mujalli D.
+; Author(s):       Kahl S., Paraskevopoulou, S., Folkertsma R., and Romero-Mujalli D.
 ;
 ; Wrote the code:  Daniel Romero Mujalli
 ;
